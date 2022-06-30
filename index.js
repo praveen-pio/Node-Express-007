@@ -16,8 +16,9 @@ app.get('/', (req, res) => {
 app.get('/process_get', function (req, res) {
    // Prepare output in JSON format
    response = {
-      first_name:req.query.first_name,
-      last_name:req.query.last_name
+      p_id:req.query.p_id,
+      p_name:req.query.p_name,
+      p_cost:req.query.p_cost
    };
    console.log(response);
    res.end(JSON.stringify(response));
