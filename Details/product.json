@@ -1,0 +1,17 @@
+{
+  "1465": {
+      "name": "firstProduct",
+      "cost": 15000,
+      "description": "first Product Description"
+  },
+  "2646": {
+    "name": "secondProduct",
+    "cost": 24000,
+    "description": "second Product Description"
+  },
+  "3253": {
+    "name": "thirdProduct",
+    "cost": 52000,
+    "description": "third Product Description"
+  }
+}
